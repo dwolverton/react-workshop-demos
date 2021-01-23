@@ -7,6 +7,8 @@ export default function App() {
     <div className="App">
       {/* 2. Insert Counter component */}
       <Counter />
+      <h2>Another One...</h2>
+      <Counter />
     </div>
   );
 }
