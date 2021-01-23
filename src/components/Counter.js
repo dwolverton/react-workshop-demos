@@ -1,4 +1,5 @@
 import React from "react";
+import "./Counter.css"; // Import CSS file
 
 function Counter() {
   return (
