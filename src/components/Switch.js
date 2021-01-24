@@ -4,10 +4,14 @@ import "./Switch.css";
 function Switch() {
   const [on, setOn] = useState(false);
 
-  const cssClass = on ? "Switch Switch--on" : "Switch Switch--off";
+  // const cssClass = on ? "Switch Switch--on" : "Switch Switch--off";
+  let additionalClass = "";
+  if (!on) {
+    additionalClass = " Switch--off";
+  }
 
   return (
-    <div className={cssClass}>
+    <div className={"Switch" + additionalClass}>
       <h3>Switch</h3>
       <p>{on ? "ON" : "OFF"}</p>
       <p>

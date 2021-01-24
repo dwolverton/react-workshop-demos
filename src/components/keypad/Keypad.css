@@ -1,0 +1,12 @@
+.Keypad {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 120px;
+  border: 2px solid gray;
+  padding: 2px;
+}
+
+.Keypad button {
+  width: 33.333%;
+  box-sizing: border-box;
+}

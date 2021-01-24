@@ -1,0 +1,264 @@
+{
+    "@context": [
+        "https://geojson.org/geojson-ld/geojson-context.jsonld",
+        {
+            "@version": "1.1",
+            "wx": "https://api.weather.gov/ontology#",
+            "geo": "http://www.opengis.net/ont/geosparql#",
+            "unit": "http://codes.wmo.int/common/unit/",
+            "@vocab": "https://api.weather.gov/ontology#"
+        }
+    ],
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.054582999999994,
+                    42.344701399999998
+                ],
+                [
+                    -83.057171099999991,
+                    42.323041400000001
+                ],
+                [
+                    -83.027861499999986,
+                    42.321125100000003
+                ],
+                [
+                    -83.025267099999979,
+                    42.342784900000005
+                ],
+                [
+                    -83.054582999999994,
+                    42.344701399999998
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "updated": "2021-01-23T10:14:02+00:00",
+        "units": "us",
+        "forecastGenerator": "BaselineForecastGenerator",
+        "generatedAt": "2021-01-23T18:30:55+00:00",
+        "updateTime": "2021-01-23T10:14:02+00:00",
+        "validTimes": "2021-01-23T04:00:00+00:00/P7DT21H",
+        "elevation": {
+            "value": 174.04079999999999,
+            "unitCode": "unit:m"
+        },
+        "periods": [
+            {
+                "number": 1,
+                "name": "This Afternoon",
+                "startTime": "2021-01-23T13:00:00-05:00",
+                "endTime": "2021-01-23T18:00:00-05:00",
+                "isDaytime": true,
+                "temperature": 29,
+                "temperatureUnit": "F",
+                "temperatureTrend": "falling",
+                "windSpeed": "7 mph",
+                "windDirection": "W",
+                "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+                "shortForecast": "Sunny",
+                "detailedForecast": "Sunny. High near 29, with temperatures falling to around 27 in the afternoon. West wind around 7 mph."
+            },
+            {
+                "number": 2,
+                "name": "Tonight",
+                "startTime": "2021-01-23T18:00:00-05:00",
+                "endTime": "2021-01-24T06:00:00-05:00",
+                "isDaytime": false,
+                "temperature": 22,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "3 mph",
+                "windDirection": "SSW",
+                "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+                "shortForecast": "Mostly Cloudy",
+                "detailedForecast": "Mostly cloudy, with a low around 22. South southwest wind around 3 mph."
+            },
+            {
+                "number": 3,
+                "name": "Sunday",
+                "startTime": "2021-01-24T06:00:00-05:00",
+                "endTime": "2021-01-24T18:00:00-05:00",
+                "isDaytime": true,
+                "temperature": 31,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "2 to 9 mph",
+                "windDirection": "SE",
+                "icon": "https://api.weather.gov/icons/land/day/snow,40?size=medium",
+                "shortForecast": "Chance Snow",
+                "detailedForecast": "A chance of snow after 7am. Cloudy, with a high near 31. Southeast wind 2 to 9 mph. Chance of precipitation is 40%. New snow accumulation of less than one inch possible."
+            },
+            {
+                "number": 4,
+                "name": "Sunday Night",
+                "startTime": "2021-01-24T18:00:00-05:00",
+                "endTime": "2021-01-25T06:00:00-05:00",
+                "isDaytime": false,
+                "temperature": 25,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "3 to 7 mph",
+                "windDirection": "E",
+                "icon": "https://api.weather.gov/icons/land/night/snow/bkn?size=medium",
+                "shortForecast": "Slight Chance Snow then Mostly Cloudy",
+                "detailedForecast": "A slight chance of snow before 7pm. Mostly cloudy, with a low around 25. East wind 3 to 7 mph. Little or no snow accumulation expected."
+            },
+            {
+                "number": 5,
+                "name": "Monday",
+                "startTime": "2021-01-25T06:00:00-05:00",
+                "endTime": "2021-01-25T18:00:00-05:00",
+                "isDaytime": true,
+                "temperature": 34,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "5 to 13 mph",
+                "windDirection": "ENE",
+                "icon": "https://api.weather.gov/icons/land/day/ovc/snow,40?size=medium",
+                "shortForecast": "Cloudy then Chance Snow",
+                "detailedForecast": "A chance of snow after 1pm. Cloudy, with a high near 34. East northeast wind 5 to 13 mph, with gusts as high as 18 mph. Chance of precipitation is 40%. New snow accumulation of less than half an inch possible."
+            },
+            {
+                "number": 6,
+                "name": "Monday Night",
+                "startTime": "2021-01-25T18:00:00-05:00",
+                "endTime": "2021-01-26T06:00:00-05:00",
+                "isDaytime": false,
+                "temperature": 27,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "15 mph",
+                "windDirection": "NE",
+                "icon": "https://api.weather.gov/icons/land/night/snow,70?size=medium",
+                "shortForecast": "Snow Likely",
+                "detailedForecast": "Snow likely. Cloudy, with a low around 27. Chance of precipitation is 70%. New snow accumulation of 3 to 5 inches possible."
+            },
+            {
+                "number": 7,
+                "name": "Tuesday",
+                "startTime": "2021-01-26T06:00:00-05:00",
+                "endTime": "2021-01-26T18:00:00-05:00",
+                "isDaytime": true,
+                "temperature": 32,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "14 mph",
+                "windDirection": "NNE",
+                "icon": "https://api.weather.gov/icons/land/day/snow,60/snow,30?size=medium",
+                "shortForecast": "Snow Likely",
+                "detailedForecast": "Snow likely before 1pm. Mostly cloudy, with a high near 32. Chance of precipitation is 60%. New snow accumulation of 1 to 3 inches possible."
+            },
+            {
+                "number": 8,
+                "name": "Tuesday Night",
+                "startTime": "2021-01-26T18:00:00-05:00",
+                "endTime": "2021-01-27T06:00:00-05:00",
+                "isDaytime": false,
+                "temperature": 18,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "6 to 10 mph",
+                "windDirection": "NNE",
+                "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+                "shortForecast": "Mostly Cloudy",
+                "detailedForecast": "Mostly cloudy, with a low around 18."
+            },
+            {
+                "number": 9,
+                "name": "Wednesday",
+                "startTime": "2021-01-27T06:00:00-05:00",
+                "endTime": "2021-01-27T18:00:00-05:00",
+                "isDaytime": true,
+                "temperature": 30,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "8 mph",
+                "windDirection": "NE",
+                "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+                "shortForecast": "Partly Sunny",
+                "detailedForecast": "Partly sunny, with a high near 30."
+            },
+            {
+                "number": 10,
+                "name": "Wednesday Night",
+                "startTime": "2021-01-27T18:00:00-05:00",
+                "endTime": "2021-01-28T06:00:00-05:00",
+                "isDaytime": false,
+                "temperature": 20,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "10 mph",
+                "windDirection": "NNE",
+                "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+                "shortForecast": "Mostly Cloudy",
+                "detailedForecast": "Mostly cloudy, with a low around 20."
+            },
+            {
+                "number": 11,
+                "name": "Thursday",
+                "startTime": "2021-01-28T06:00:00-05:00",
+                "endTime": "2021-01-28T18:00:00-05:00",
+                "isDaytime": true,
+                "temperature": 30,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "10 mph",
+                "windDirection": "N",
+                "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+                "shortForecast": "Partly Sunny",
+                "detailedForecast": "Partly sunny, with a high near 30."
+            },
+            {
+                "number": 12,
+                "name": "Thursday Night",
+                "startTime": "2021-01-28T18:00:00-05:00",
+                "endTime": "2021-01-29T06:00:00-05:00",
+                "isDaytime": false,
+                "temperature": 18,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "7 mph",
+                "windDirection": "NW",
+                "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+                "shortForecast": "Mostly Cloudy",
+                "detailedForecast": "Mostly cloudy, with a low around 18."
+            },
+            {
+                "number": 13,
+                "name": "Friday",
+                "startTime": "2021-01-29T06:00:00-05:00",
+                "endTime": "2021-01-29T18:00:00-05:00",
+                "isDaytime": true,
+                "temperature": 32,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "7 mph",
+                "windDirection": "SW",
+                "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+                "shortForecast": "Partly Sunny",
+                "detailedForecast": "Partly sunny, with a high near 32."
+            },
+            {
+                "number": 14,
+                "name": "Friday Night",
+                "startTime": "2021-01-29T18:00:00-05:00",
+                "endTime": "2021-01-30T06:00:00-05:00",
+                "isDaytime": false,
+                "temperature": 25,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "7 mph",
+                "windDirection": "SSW",
+                "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+                "shortForecast": "Mostly Cloudy",
+                "detailedForecast": "Mostly cloudy, with a low around 25."
+            }
+        ]
+    }
+}
