@@ -20,14 +20,16 @@ export default function App() {
 
   return (
     <div className="App">
-      {weatherList.map((wx) => (
-        <Weather
-          key={wx.number}
-          time={wx.name}
-          tempF={wx.temperature}
-          conditions={wx.shortForecast}
-        />
-      ))}
+      {weatherList.length === 0
+        ? "Loading..."
+        : weatherList.map((wx) => (
+            <Weather
+              key={wx.number}
+              time={wx.name}
+              tempF={wx.temperature}
+              conditions={wx.shortForecast}
+            />
+          ))}
       {/* <Weather time="Today" conditions="Overcast" tempF={28} />
       <Weather time="Tomorrow" conditions="Sunny" tempF={78} />
       <Weather conditions="Sunny" tempF={78} /> */}
