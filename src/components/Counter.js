@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Counter.css"; // Import CSS file
+import Weather from "./Weather";
 
 function Counter() {
   const [count, setCount] = useState(0);
@@ -21,6 +22,7 @@ function Counter() {
         {count !== 0 && <button onClick={resetCount}>Reset</button>}
         <button onClick={countUp}>Up</button>
       </p>
+      <Weather time="Today" tempF={count} conditions="Cloudy" />
     </div>
   );
 }

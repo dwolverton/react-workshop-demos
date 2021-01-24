@@ -6,7 +6,7 @@ function Weather({ time, conditions, tempF }) {
 
   return (
     <div className="Weather">
-      <h3>Weather for {time}</h3>
+      {time && <h3>Weather for {time}</h3>}
       <p>{conditions}</p>
       <p>
         Temperature: {tempF}F ({tempC}C)
