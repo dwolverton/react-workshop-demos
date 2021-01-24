@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Counter from "./components/Counter";
+import CodeEntry from "./components/keypad/CodeEntry";
 import Switch from "./components/Switch";
 import Votes from "./components/Votes";
 import Weather from "./components/Weather";
@@ -20,6 +21,7 @@ export default function App() {
 
   return (
     <div className="App">
+      <CodeEntry />
       {weatherList.length === 0
         ? "Loading..."
         : weatherList.map((wx) => (
